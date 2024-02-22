@@ -1,0 +1,21 @@
+{
+  "name": "file_sharing_webrtc",
+  "version": "1.0.0",
+  "description": "share files peer to peer with webrtc",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev":"nodemon server.js"
+  },
+
+  "author": "Raghav Pant",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.18.2",
+    "socket.io": "^4.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
